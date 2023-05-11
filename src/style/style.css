@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.continent {
+  background: #ee0b62;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.continent_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 10px;
+}
+
+.backCont {
+  width: 20%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back_key {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
+.seting {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.settingsContinent,
+.microphoneContinent {
+  width: 20px;
+}
+
+.worldImageCont {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background: #ea4a88;
+}
+
+.worldImageCont:hover {
+  background: #78133a;
+}
+
+.world_image {
+  width: 50%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.popn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cont_img {
+  width: 50%;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.continent_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.continents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #3e1827;
+  padding: 20px;
+}
+
+.continents:nth-child(odd) {
+  background: #78133a;
+}
+
+.direction_key {
+  width: 40px;
+  color: green;
+}
+
+.direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  align-self: flex-end;
+  border-radius: 100%;
+  border: 3px solid white;
+  padding: 2px;
+}
+
+.direction:hover {
+  background: #ee0b62;
+
+}
+
+.continent_pop {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .seting,
+  .backCont {
+    width: 150px
+  }
+
+  .continent_container {
+    width: 100%;
+  }
+  .worldImageCont{
+    width: 100%;
+  }
+
+  .world_image {
+    width: 50%;
+    height: 400px;
+  }
+
+}
