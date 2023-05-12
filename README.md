@@ -8,9 +8,9 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center"><img src="./src/asset/populationContinents.png" alt="screenshot" width="auto" height="auto"/></div>|
-<div align="center"><img src="./src/asset/populationCountries.png" alt="screenshot" width="auto" height="auto"/></div>|
-<div align="center"><img src="./src/asset/populationDetails.png" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/asset/popcontinent.png" alt="screenshot" width="auto" height="auto"/></div>|
+<div align="center"><img src="./src/asset/popcountries.png" alt="screenshot" width="auto" height="auto"/></div>|
+<div align="center"><img src="./src/asset/popdetails.png" alt="screenshot" width="auto" height="auto"/></div>|
 
 # ￼ Table of Contents
 
@@ -70,7 +70,7 @@
 
 > [Live Demo Link](https://world-population-git-population-frankmugagga.vercel.app/)
 ## ￼ Live Demo <a name="live-demo"></a>
-> [Video Link](https://www.loom.com/share/2c67c7614e624f748a7ccc010eb205ec)
+> [Video Link](https://www.loom.com/share/29a4e4f5a5f54220865b0d01e79b6fac)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
