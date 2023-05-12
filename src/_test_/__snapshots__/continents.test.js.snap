@@ -1,6 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`performing test for rockets testing if rockets page really matches 1`] = `
+exports[`performing test for continents testing if continents page really matches 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`performing test for continents testing if continents pge really matches 1`] = `
 <div>
   Loading...
 </div>

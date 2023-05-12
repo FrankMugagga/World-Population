@@ -17,6 +17,10 @@
   height: 50px;
 }
 
+.countName {
+  font-size: 20px;
+}
+
 .countName:hover {
   font-size: 50px;
   color: rgb(61, 66, 63);
@@ -55,8 +59,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20rem;
-  width: 60%;
+  font-size: 18em;
+  width: 50%;
   height: auto;
   padding: 0;
 }
@@ -86,7 +90,7 @@
 }
 
 a {
-  color: #ea4a88;
+  color: white;
 }
 
 .detailItem2,
@@ -95,7 +99,7 @@ a {
   flex-direction: column;
   justify-content: center;
   margin-right: 10px;
-  font-size: 30px;
+  font-size: 20px;
   border-left: 2px solid black;
   padding: 2px;
 }

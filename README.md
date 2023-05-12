@@ -8,9 +8,9 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center"><img src="./src/asset/populationContinents.png" alt="screenshot" width="auto" height="auto"/></div>|
-<div align="center"><img src="./src/asset/populationCountries.png" alt="screenshot" width="auto" height="auto"/></div>|
-<div align="center"><img src="./src/asset/populationDetails.png" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/asset/popcontinent.png" alt="screenshot" width="auto" height="auto"/></div>|
+<div align="center"><img src="./src/asset/popcountries.png" alt="screenshot" width="auto" height="auto"/></div>|
+<div align="center"><img src="./src/asset/popdetails.png" alt="screenshot" width="auto" height="auto"/></div>|
 
 # ￼ Table of Contents
 
@@ -36,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# ￼ [Metrics webapp - World population] <a name="about-project"></a>
+# ￼ [Metrics webapp -World population] <a name="about-project"></a>
 
 > **[Metrics webapp - World population]** is a web application that shows population metrics of countries of the world fetched from the API: https://restcountries.com
 
@@ -58,9 +58,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Unit testing]**
-**[Fetching data from the API]**
-**[Searching of counties by filter]**
-**[Prop drilling using useParams]**
+- **[Fetching data from the API]**
+- **[Searching of counties by filter]**
+- **[Prop drilling using useParams]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +70,7 @@
 
 > [Live Demo Link](https://world-population-git-population-frankmugagga.vercel.app/)
 ## ￼ Live Demo <a name="live-demo"></a>
-> [Video Link](https://www.loom.com/share/6cfd92c5836247e9af3108c1f8f30f14)
+> [Video Link](https://www.loom.com/share/29a4e4f5a5f54220865b0d01e79b6fac)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->

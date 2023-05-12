@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`performing test for Country component testing if Counties page really matches 1`] = `
+<div
+  className="fullCont"
+>
+  <div
+    className="continentsCont"
+  >
+    <header
+      className="CountriesHeader"
+    >
+      <div
+        className="backKey"
+      >
+        <a
+          className="direct"
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="back arrow"
+            className="direction_k"
+            src="https://svgsilh.com/svg/97591-ffffff.svg"
+          />
+        </a>
+        <div
+          className="year"
+        >
+          2018
+        </div>
+      </div>
+      <div
+        className="contHead"
+      >
+        's Population
+      </div>
+      <div
+        className="setM"
+      >
+        <img
+          alt="microphone"
+          className="microphone"
+          src="https://svgsilh.com/svg/468291-ffffff.svg"
+        />
+        <img
+          alt="settings"
+          className="settings"
+          src="https://svgsilh.com/svg/98446-ffffff.svg"
+        />
+      </div>
+    </header>
+    <h2 />
+    <div
+      className="stat"
+    >
+      COUNTRY BREAKDOWN - 2018 
+      <input
+        className="searchQuery"
+        name="searchQuery"
+        onChange={[Function]}
+        placeholder="search by country"
+        type="search"
+        value=""
+      />
+    </div>
+    <section
+      className=""
+    >
+      <ul
+        className="breakdown"
+      />
+    </section>
+  </div>
+</div>
+`;
+
+exports[`performing test for Country component testing if Counties page really mtches 1`] = `
+<div
+  className="fullCont"
+>
+  <div
+    className="continentsCont"
+  >
+    <header
+      className="CountriesHeader"
+    >
+      <div
+        className="backKey"
+      >
+        <a
+          className="direct"
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="back arrow"
+            className="direction_k"
+            src="https://svgsilh.com/svg/97591-ffffff.svg"
+          />
+        </a>
+        <div
+          className="year"
+        >
+          2018
+        </div>
+      </div>
+      <div
+        className="contHead"
+      >
+        's Population
+      </div>
+      <div
+        className="setM"
+      >
+        <img
+          alt="microphone"
+          className="microphone"
+          src="https://svgsilh.com/svg/468291-ffffff.svg"
+        />
+        <img
+          alt="settings"
+          className="settings"
+          src="https://svgsilh.com/svg/98446-ffffff.svg"
+        />
+      </div>
+    </header>
+    <h2 />
+    <div
+      className="stat"
+    >
+      COUNTRY BREAKDOWN - 2018 
+      <input
+        className="searchQuery"
+        name="searchQuery"
+        onChange={[Function]}
+        placeholder="search by country"
+        type="search"
+        value=""
+      />
+    </div>
+    <section
+      className=""
+    >
+      <ul
+        className="breakdown"
+      />
+    </section>
+  </div>
+</div>
+`;
