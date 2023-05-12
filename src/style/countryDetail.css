@@ -86,7 +86,7 @@
 }
 
 a {
-  color: blue;
+  color: #ea4a88;
 }
 
 .detailItem2,
@@ -94,11 +94,19 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
   margin-right: 10px;
   font-size: 30px;
   border-left: 2px solid black;
   padding: 2px;
+}
+
+.detailItem2 {
+  width: 70%;
+
+}
+
+.detailItem {
+  width: 30%;
 }
 
 .detailItem2:hover {
