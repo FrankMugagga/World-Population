@@ -2,9 +2,9 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import '@testing-library/jest-dom';
+import { MemoryRouter } from 'react-router-dom';
 import store from '../redux/store';
 import Country from '../features/countries/country/Country';
-import { MemoryRouter } from 'react-router-dom';
 
 describe('performing test for Country component', () => {
   it('testing if Counties page really matches', () => {

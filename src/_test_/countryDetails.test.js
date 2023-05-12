@@ -14,7 +14,7 @@ describe('Testing the country details', () => {
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('That jest works', () => {
+  test('That jest workss', () => {
     expect(true).toBe(true);
   });
 });
