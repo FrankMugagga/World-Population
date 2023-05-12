@@ -25,10 +25,10 @@ function CountryDetails() {
               <div>
                 <Link className="directiondet" to="/"><img className="direction_keyd" alt="back arrow" src="https://svgsilh.com/svg/97591-ffffff.svg" /></Link>
               </div>
-              <h1 className="countName">
+              <div className="countName">
                 { countryDetail[0].name.common}
                 &apos;s population
-              </h1>
+              </div>
               <div className="set">
                 <img className="microphone" alt="microphone" src="https://svgsilh.com/svg/468291-ffffff.svg" />
                 <img className="settings" alt="settings" src="https://svgsilh.com/svg/98446-ffffff.svg" />
