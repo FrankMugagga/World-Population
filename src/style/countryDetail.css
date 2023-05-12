@@ -85,6 +85,10 @@
   background: #3e1827;
 }
 
+a {
+  color: blue;
+}
+
 .detailItem2,
 .detailItem {
   display: flex;
