@@ -1,154 +1,152 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .continentsCont {
-    height: 100vh;
-    overflow: scroll;
-    padding: 1px;
-    background: #ee0b62;
+  height: 100vh;
+  overflow: scroll;
+  padding: 1px;
+  background: #ee0b62;
 }
 
 .CountriesHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #ee0b62;
-    height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ee0b62;
+  height: 50px;
 }
 
 .backKey {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
 }
 
 .direct {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    border: 4px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border: 4px solid white;
 }
 
 .contHead {
-    font-size: 20px;
-    font-weight: 900;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .setM {
-    width: 15%;
-    display: flex;
-    justify-content: space-between;
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .imgCont {
-    background: #ea4a88;
+  width: 100%;
+  display: flex;
+  background: #ea4a88;
 }
 
 .imgCont:hover {
-    background: #78133a;
+  background: #78133a;
 }
 
 .direction_k {
-    width: 25px;
+  width: 25px;
 }
 
-.imgCont {
-    width: 100%;
-    display: flex; border: 2px solid red;
-}
-
-.contImage{
-    width: 50%;
+.contImage {
+  width: 50%;
 }
 
 .popCont {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sec {
-    background: pink;
+  background: pink;
 }
 
 .breakdown {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
-    gap: 1px; border: 2px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  gap: 1px;
+  border: 2px solid red;
 }
+
 .countryList {
-    padding: 10px;
-    background: #3e1827;    
+  padding: 10px;
+  background: #3e1827;
 }
 
 .countryList:nth-child(even) {
-    background: #78133a;
+  background: #78133a;
 }
 
 .countryDet {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .forwardIcon {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 .directionCont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
 }
 
 .directionCont:hover {
-    background: #ea4a88;
+  background: #ea4a88;
 }
 
 .couflag {
-    font-size: 160px;
-    width: 100px;
+  font-size: 160px;
+  width: 100px;
 }
 
 .cpop,
 .countName {
-    display: flex;
-    align-items: center;
-    border-top: 2px solid white;
-    height: 3rem;
-    font-size: 17px;
-    font-weight: 600;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid white;
+  height: 3rem;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
+  .continentsCont {
+    width: 100%;
+    padding: 10px;
+  }
 
-    .continentsCont {
-        width: 100%;
-        padding: 10px;
-    }
+  .breakdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-    .breakdown {
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .imgCont {
-        height: 300px;
-    }
+  .imgCont {
+    height: 300px;
+  }
 
-    .cpop,
-    .countName {
-        font-size: 20px;
-    }
-    
+  .cpop,
+  .countName {
+    font-size: 20px;
+  }
 }
