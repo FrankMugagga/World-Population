@@ -75,6 +75,13 @@
   background: pink;
 }
 
+.searchQuery {
+  color: #ea4a88;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+}
+
 .breakdown {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -88,7 +95,9 @@
   background: #3e1827;
 }
 
-.countryList:nth-child(even) {
+.countryList:first-child,
+.countryList:nth-child(4n),
+.countryList:nth-child(4n+1) {
   background: #78133a;
 }
 
@@ -121,7 +130,7 @@
 }
 
 .cpop,
-.countName {
+.countNam {
   display: flex;
   align-items: center;
   border-top: 2px solid white;
@@ -149,4 +158,15 @@
   .countName {
     font-size: 20px;
   }
+
+  .countryList {
+    padding: 10px;
+    background: #3e1827;
+  }
+
+  .countryList:nth(odd) {
+    background: #78133a;
+  }
+  
+
 }

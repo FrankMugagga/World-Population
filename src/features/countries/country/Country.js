@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 import { getCountry } from './country.Slice';
@@ -15,6 +15,11 @@ const Country = () => {
   }, [dispatch, continent]);
   const countryData = useSelector((state) => state.countries.country);
   const contine = useSelector((state) => state.continents.continent);
+
+  const [searchQuery, setSearchQuery] = useState('');
+  const filteredCountries = countryData.filter(
+    (country) => country.name.official.toLowerCase().includes(searchQuery.toLocaleLowerCase()),
+  );
 
   return (
     <div className="fullCont">
@@ -50,11 +55,19 @@ const Country = () => {
           ))}
         </h2>
         <div className="stat">
-          COUNTRY BREAKDOWN - 2018
+          COUNTRY BREAKDOWN - 2018&nbsp;
+          <input
+            name="searchQuery"
+            className="searchQuery"
+            placeholder="search by country"
+            type="search"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
         </div>
         <section className="">
           <ul className="breakdown">
-            {countryData.map((country) => (
+            {filteredCountries.map((country) => (
               <li className="countryList" key={country.capital}>
                 <div className="countryDet">
                   <div className="forwardIcon">
@@ -63,7 +76,7 @@ const Country = () => {
                     </Link>
                   </div>
                   <div className="couflag">{country.flag}</div>
-                  <div className="countName">{country.name.official}</div>
+                  <div className="countNam">{country.name.official}</div>
                   <div className="cpop">{country.population}</div>
                 </div>
 
