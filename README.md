@@ -70,7 +70,7 @@
 
 > [Live Demo Link](https://world-population-git-population-frankmugagga.vercel.app/)
 ## ￼ Live Demo <a name="live-demo"></a>
-> [Video Link](https://www.loom.com/share/6cfd92c5836247e9af3108c1f8f30f14)
+> [Video Link](https://www.loom.com/share/2c67c7614e624f748a7ccc010eb205ec)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
