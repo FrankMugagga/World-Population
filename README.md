@@ -36,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# ￼ [Metrics webapp - World population] <a name="about-project"></a>
+# ￼ [Metrics webapp -World population] <a name="about-project"></a>
 
 > **[Metrics webapp - World population]** is a web application that shows population metrics of countries of the world fetched from the API: https://restcountries.com
 
@@ -58,9 +58,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Unit testing]**
-**[Fetching data from the API]**
-**[Searching of counties by filter]**
-**[Prop drilling using useParams]**
+- **[Fetching data from the API]**
+- **[Searching of counties by filter]**
+- **[Prop drilling using useParams]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
