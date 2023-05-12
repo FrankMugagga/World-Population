@@ -164,9 +164,9 @@
     background: #3e1827;
   }
 
-  .countryList:nth(odd) {
+  .countryList:first-child,
+  .countryList:nth-child(4n),
+  .countryList:nth-child(4n+1) {
     background: #78133a;
   }
-  
-
 }
