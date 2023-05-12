@@ -99,12 +99,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: #3e1827;
+  background: #6d4353;
   padding: 20px;
 }
 
-.continents:nth-child(odd) {
-  background: #78133a;
+.continents:first-child,
+.continents:nth-child(4n),
+.continents:nth-child(4n+1) {
+  background: #3e1827;
 }
 
 .direction_key {
