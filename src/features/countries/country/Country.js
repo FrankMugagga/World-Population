@@ -55,7 +55,7 @@ const Country = () => {
           ))}
         </h2>
         <div className="stat">
-          COUNTRY BREAKDOWN - 2018&nbsp;
+          Country break down - 2018&nbsp;
           <input
             name="searchQuery"
             className="searchQuery"
