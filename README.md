@@ -45,7 +45,14 @@
 ### Tech Stack <a name="tech-stack"></a>
 - <summary>Client</summary>
     <ul>
-      <li><a href="https://reactjs.org/">React, redux and API</a></li>
+      <li><a href="https://reactjs.org/">Redux</a></li>
+      <li><a href="https://reactjs.org/">React</a></li>
+      <li><a href="https://reactjs.org/">API</a></li>
+      <li><a href="https://reactjs.org/">Github</a></li>
+      <li><a href="https://reactjs.org/">Linters</a></li>
+      <li><a href="https://reactjs.org/">CSS (Flex box and grid)</a></li>
+      <li><a href="https://reactjs.org/">HTML5</a></li>
+      
     </ul>
 
 ### Key Features <a name="key-features"></a>
@@ -61,7 +68,8 @@
 
 ## ￼ Live Demo <a name="live-demo"></a>
 
-> [Live Demo Link]()
+> [Live Demo Link](https://world-population-git-population-frankmugagga.vercel.app/)
+> [Video Link](https://www.loom.com/share/6cfd92c5836247e9af3108c1f8f30f14)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
