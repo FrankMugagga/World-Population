@@ -1,3 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing the country details matches snapshot 1`] = `<div />`;
+exports[`Testing the country details matches snapshot 1`] = `
+<div
+  className="countDetails"
+/>
+`;
