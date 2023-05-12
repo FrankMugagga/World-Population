@@ -51,7 +51,7 @@
       <li><a href="https://reactjs.org/">Github</a></li>
       <li><a href="https://reactjs.org/">Linters</a></li>
       <li><a href="https://reactjs.org/">CSS (Flex box and grid)</a></li>
-      <li><a href="https://reactjs.org/">HTML5</a></li>
+      <li><a href="https://reactjs.org/">HTML</a></li>
       
     </ul>
 
@@ -69,6 +69,7 @@
 ## ￼ Live Demo <a name="live-demo"></a>
 
 > [Live Demo Link](https://world-population-git-population-frankmugagga.vercel.app/)
+## ￼ Live Demo <a name="live-demo"></a>
 > [Video Link](https://www.loom.com/share/6cfd92c5836247e9af3108c1f8f30f14)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
