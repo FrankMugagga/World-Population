@@ -51,7 +51,7 @@
       <li><a href="https://reactjs.org/">Github</a></li>
       <li><a href="https://reactjs.org/">Linters</a></li>
       <li><a href="https://reactjs.org/">CSS (Flex box and grid)</a></li>
-      <li><a href="https://reactjs.org/">HTML5</a></li>
+      <li><a href="https://reactjs.org/">HTML</a></li>
       
     </ul>
 
